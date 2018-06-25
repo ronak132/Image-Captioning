@@ -1,0 +1,40 @@
+.
+├── attention_model
+│   ├── beamsearch.py
+│   ├── dec_map.pkl
+│   ├── enc_map.pkl
+│   ├── evaluate.py
+│   ├── model.py
+│   ├── pre_trained
+│   │   └── glove.6B.100d.txt
+│   ├── __pycache__
+│   │   ├── beamsearch.cpython-35.pyc
+│   │   ├── model.cpython-35.pyc
+│   │   └── utils.cpython-35.pyc
+│   ├── results
+│   ├── train.py
+│   ├── utils.py
+│   └── weights
+│       └── v1.0.0_6_39_1524863089.8904815.h5
+├── CNN+LSTM
+│   ├── caption.py
+│   ├── caption.pyc
+│   ├── __pycache__
+│   │   └── caption.cpython-35.pyc
+│   ├── test.py
+│   ├── train_model.py
+│   ├── unique.p
+│   ├── weights
+│   │   └── weights-improvement_epoch50_adam-70.hdf5
+│   └── weights-improvement_epoch50_adam-70.hdf5
+├── encoded_images_inceptionV3.p
+├── encoded_images_test_inceptionV3.p
+├── Flicker8k_Dataset
+└── processed_files
+    ├── Flickr_8k.devImages.txt
+    ├── Flickr8k.lemma.token.txt
+    ├── Flickr_8k.testImages.txt
+    ├── Flickr8k.token.txt
+    ├── Flickr_8k.trainImages.txt
+    ├── flickr8k_training_dataset.txt
+    └── unique.p
